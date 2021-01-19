@@ -279,6 +279,7 @@ img {
 
 @media screen and (max-width: 600px) {
   .header-inner-left {
+    font-size: 4.26667vw;
     left: unset;
     top: 15%;
     -webkit-transform: unset;

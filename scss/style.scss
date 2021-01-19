@@ -177,6 +177,7 @@ img {
             top: 50%;
             transform: translateY(-50%);
             @media #{$mq-sp} {
+                font-size: (16/$vw-sp)*100vw;
                 left: unset;
                 top: 15%;
                 transform: unset;
