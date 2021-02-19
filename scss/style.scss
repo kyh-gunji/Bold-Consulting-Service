@@ -138,24 +138,26 @@ img {
         position: fixed;
         z-index: 100;
         width: 100%;
-        height: (800/$vw-pc)*100vw;
+        height: 100vh;
         background-color: $black;
         text-align: center;
         font-size: (60/$vw-pc)*100vw;
         overflow-y: scroll;
         @media #{$mq-sp} {
-            height: (667/$vw-sp)*100vw;
             font-size: (40/$vw-sp)*100vw;
         }
         &-lists {
             transform: translateY(11%);
             @media #{$mq-sp} {
                 transform: translateY(14%);
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
             }
             &-list {
                 margin-bottom: (22/$vw-pc)*100vw;
                 @media #{$mq-sp} {
-                    margin-bottom: (94/$vw-sp)*100vw;
+                    margin-bottom: unset;
                 }
                 &-link {
                     color: $white;
